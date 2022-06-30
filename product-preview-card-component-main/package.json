@@ -4,8 +4,8 @@
   "description": "frontendmentor challange",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch",
-    "build": "NODE_ENV=production postcss ./src/main.css -o ./dist/output.css"
+    "dev": "npx tailwindcss -i ./src/main.css -o ./src/dist/output.css --watch",
+    "build": "NODE_ENV=production postcss ./src/main.css -o ./src/dist/output.css"
   },
   "author": "Victor Movileanu",
   "license": "ISC",
