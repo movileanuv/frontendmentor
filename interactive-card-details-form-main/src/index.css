@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.cards {
+    background-image: url("images/bg-main-desktop.png");
+    background-size: cover;
+    position: relative;
+}
+
+.card-1 {
+    position: absolute;
+    top: 18.7rem;
+    left: 16.4rem;
+    background-image: url("images/bg-card-front.png");
+    width: 44.7rem;
+    height: 24.5rem;
+    padding: 2.8rem 3.2rem;
+}
+
+.card-2 {
+    position: absolute;
+    top: 46.9rem;
+    left: 25.8rem;
+    background-image: url("images/bg-card-back.png");
+    width: 44.7rem;
+    height: 24.5rem;
+}
