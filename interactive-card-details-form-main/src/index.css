@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,4 +37,17 @@ body {
     background-image: url("images/bg-card-back.png");
     width: 44.7rem;
     height: 24.5rem;
+}
+
+.form-input {
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    line-height: 23px;
+    padding: 1.1rem 1.6rem;
+
+    /* Deep Violet */
+    color: #21092F;
+    mix-blend-mode: normal;
+    opacity: 0.25;
 }
