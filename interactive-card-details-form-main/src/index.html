@@ -50,7 +50,7 @@
         </div>
     </div>
     <div class="flex flex-auto justify-center items-center p-[22.7rem] pl-[34.9rem]">
-        <form id="credit-card-form" class="flex flex-col text-[1.2rem] tracking-[2px] leading-[1.5rem]">
+        <form id="credit-card-form" class="w-[38.1rem] text-[1.2rem] tracking-[2px] leading-[1.5rem]">
             <label class="block uppercase mb-[2.6rem]">
                 Cardholder Name
                 <input type="text" placeholder="e.g. Jane Appleseed"
@@ -61,17 +61,17 @@
                 <input type="number" placeholder="e.g. 1234 5678 9123 0000"
                        class="form-input block w-full mt-[9px] text-[1.8rem]">
             </label>
-            <div class="flex mb-[4rem]">
-                <fieldset class="flex">
+            <div class="flex gap-[2rem] mb-[4rem]">
+                <fieldset class="flex gap-[1rem]">
                     <legend class="uppercase">Exp. Date (MM/YY)</legend>
                     <label for="month" class="hidden">Month</label>
                     <label for="year" class="hidden">Year</label>
                     <input type="number" min="01" max="12" id="month" placeholder="MM"
-                           class="form-input mt-[9px] text-[1.8rem] w-[8rem] mr-[1rem]">
+                           class="form-input mt-[9px] text-[1.8rem] w-[8rem]">
                     <input type="number" min="22" id="year" placeholder="YY"
                            class="form-input mt-[9px] text-[1.8rem] w-[8rem]">
                 </fieldset>
-                <label class="ml-[2rem]">
+                <label class="">
                     CVC
                     <input type="number" placeholder="e.g. 123" class="form-input mt-[9px] block text-[1.8rem]">
                 </label>
@@ -79,10 +79,11 @@
 
             <button class="w-full py-[1.5rem] px-[15.6rem] bg-veryDarkViolet text-white rounded-[8px]">Confirm</button>
         </form>
-        <div id="success-message" class="hidden">
-            Thank you!
-            We've added your card details
-            <button id="dismiss-success-message">Continue</button>
+        <div id="success-message" class="hidden text-center">
+            <object data="images/icon-complete.svg" class="mx-auto mb-[3.5rem]"></object>
+            <span class="block mb-[1.6rem] uppercase text-veryDarkViolet text-[2.8rem] leading-[3.6rem] tracking-[3.4px]">Thank you!</span>
+            <span class="block mb-[4.8rem] text-darkGrayishViolet text-[1.8rem] leading-[2.3rem]">We've added your card details</span>
+            <button id="dismiss-success-message" class="w-full py-[1.5rem] px-[15.6rem] bg-veryDarkViolet text-white rounded-[8px]">Continue</button>
         </div>
     </div>
 </main>
